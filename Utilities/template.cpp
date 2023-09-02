@@ -5,6 +5,9 @@ using namespace std;
 #define ss second
 #define mp make_pair
 #define pb push_back
+
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
  
 typedef long long ll;
 typedef double lf;
